@@ -1,0 +1,80 @@
+:root{
+    scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1{
+    margin: 0 4rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.grid{
+    max-width: 50%;
+    min-width: min-content;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    padding: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.program-title{
+    text-align: center;
+}
+
+.program-info{
+    padding: 0 1rem;
+}
+
+.program-info ul{
+    list-style: none;
+    padding-left: 0;
+    color: rgb(101, 101, 101);
+}
+
+.details-button{
+    background-color: rgb(244, 24, 40);
+    border: solid;
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.details-button:hover{
+    background-color: white;
+    color: rgb(244, 24, 40);
+}
+
+.details-button:active{
+    transform: scale(0.9);
+}
