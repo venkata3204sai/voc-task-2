@@ -8,7 +8,11 @@
   <img src="https://img.shields.io/badge/Status-Completed-green.svg" alt="Project Status">
   <img src="https://img.shields.io/github/last-commit/venkata3204sai/voc-task-2" alt="Last Commit">
   <img src="https://img.shields.io/github/repo-size/venkata3204sai/voc-task-2" alt="Repo Size">
+  <img src="https://img.shields.io/badge/Internship-Vault%20of%20Codes-blueviolet" alt="Vault of Codes Internship">
 </p>
+
+**This project was developed as part of my Frontend Web Development Internship at Vault of Codes.**  
+**Live Demo:** https://venkata3204sai.github.io/voc-task-2/
 
 A clean and responsive **Internship Listing Website** built using HTML and CSS.  
 The page showcases internship programs (Web Dev, App Dev, Python, Java) in card format, each linking to a dedicated detail sub-page.
@@ -81,6 +85,13 @@ python -m http.server 8000
 ## Preview
 <img width="1887" height="980" alt="{AAB6534F-DFAA-448E-9970-61D7BDF11B3A}" src="https://github.com/user-attachments/assets/eccedba6-24ef-44f9-baca-417104ca509d" />
 
+## Internship Acknowledgment
+
+This project was created as an official task for my **Frontend Web Development Internship at Vault of Codes**.  
+The goal of the internship was to build real-world, responsive web interfaces using HTML, CSS, and JavaScript while strengthening UI/UX design fundamentals.
+
+You can view the live hosted version here:  
+**GitHub Pages:** https://venkata3204sai.github.io/voc-task-2/
 
 
 ## License
