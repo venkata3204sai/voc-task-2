@@ -78,6 +78,11 @@ python -m http.server 8000
 - CSS3 (Flexbox, Grid, Hover Transitions)
 - No frameworks or JavaScript required
 
+## Preview
+<img width="1887" height="980" alt="{AAB6534F-DFAA-448E-9970-61D7BDF11B3A}" src="https://github.com/user-attachments/assets/eccedba6-24ef-44f9-baca-417104ca509d" />
+
+
+
 ## License
 This project is licensed under the MIT License.
 See the [LICENSE](LICENSE) file for details.
